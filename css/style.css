@@ -493,7 +493,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about img {
-    width: 100%;
+    width: 400px;
+    height: 500px;
+    border-radius: 4px;
 }
 
 .about h3 {
@@ -508,6 +510,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about p {
+    color: #000000;
     font-size: 16px;
     font-weight: 300;
 }
@@ -556,12 +559,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .about .progress {
     margin-bottom: 15px;
-    border-radius: 0;
+    border-radius: 100px;
 }
 
 .about .progress .progress-bar {
     background: #021F59;
-    border-radius: 0;
+    border-radius: 100px;
 }
 
 
@@ -799,37 +802,40 @@ body.mobile-nav-active #mobile-nav-toggle {
 .portfolio {
     position: relative;
     clear: both;
-    padding: 60px 0 30px 0;
+    padding: 60px 0 16px 0;
 }
 
 .portfolio .section-header p {
-    margin-bottom: 30px;
+    margin-bottom: 12px;
 }
 
 .portfolio #portfolio-flters {
-    padding: 0;
-    margin: -15px 0 30px 0;
+    padding: 24px;
+    margin: 8px 0 16px 0;
     list-style: none;
     text-align: center;
 }
 
 .portfolio #portfolio-flters li {
     cursor: pointer;
-    margin: 15px -3px 5px -3px;
+    margin: 15px 0.5px 5px 0.5px;
     display: inline-block;
     padding: 10px 15px;
-    color: #AF9483;
+    color: #122958;
     font-size: 14px;
+
+    font-weight: 200;
     line-height: 15px;
     text-transform: uppercase;
-    border: 1px solid #AF9483;
+    border-radius: 100px;
+    border: 1px solid #0a2a63;
     background: #ffffff;
     transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #AF9483;
+    background: #021F59;
     color: #ffffff;
 }
 
@@ -844,7 +850,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .portfolio .portfolio-item figure {
-    background: #AF9483;
+    background: #040609;
     overflow: hidden;
     height: 220px;
     position: relative;
@@ -865,8 +871,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     opacity: 0;
     line-height: 1;
     text-align: center;
-    width: 60px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background: #ffffff;
     transition: 0.2s linear;
 }
@@ -879,7 +885,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio .portfolio-item figure .link-preview:hover,
 .portfolio .portfolio-item figure .link-details:hover {
-    background: #AF9483;
+    background: #06298b;
+    border-radius: 100px;
 }
 
 .portfolio .portfolio-item figure .link-preview:hover i,
